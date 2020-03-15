@@ -4,8 +4,10 @@
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
-  },
+    "start": "node bot.js" },
+  "engines": {
+    "node": "12.6.x"},
+  
   "dependencies": {
     "discord.js": "11.3.2",
     "node-opus": "0.2.7",
